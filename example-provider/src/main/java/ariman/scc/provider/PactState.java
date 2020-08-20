@@ -1,4 +1,4 @@
-package provider;
+package ariman.scc.provider;
 
 public class PactState {
     private String state;

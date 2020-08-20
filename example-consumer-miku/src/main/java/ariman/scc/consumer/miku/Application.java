@@ -1,4 +1,4 @@
-package ariman.pact.consumer;
+package ariman.scc.consumer.miku;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

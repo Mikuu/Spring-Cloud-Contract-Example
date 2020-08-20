@@ -1,8 +1,8 @@
-package provider;
+package ariman.scc.provider;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
-import provider.ulti.Nationality;
+import ariman.scc.provider.ulti.Nationality;
 
 @Profile("pact")
 @RestController

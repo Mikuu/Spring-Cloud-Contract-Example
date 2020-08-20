@@ -1,4 +1,4 @@
-package ariman.pact.consumer;
+package ariman.scc.provider;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package provider.ulti;
+package ariman.scc.provider.ulti;
 
 /**
  * Created by Biao on 14/12/2017.

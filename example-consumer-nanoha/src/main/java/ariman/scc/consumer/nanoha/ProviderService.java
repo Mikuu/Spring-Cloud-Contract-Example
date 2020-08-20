@@ -1,4 +1,4 @@
-package ariman.pact.consumer;
+package ariman.scc.consumer.nanoha;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

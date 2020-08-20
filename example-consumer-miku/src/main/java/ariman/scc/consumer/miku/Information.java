@@ -1,4 +1,4 @@
-package ariman.pact.consumer;
+package ariman.scc.consumer.miku;
 
 import java.util.HashMap;
 import java.util.Map;

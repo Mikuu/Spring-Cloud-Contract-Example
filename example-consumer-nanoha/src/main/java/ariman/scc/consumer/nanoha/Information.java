@@ -1,6 +1,4 @@
-package provider;
-
-import provider.ulti.Nationality;
+package ariman.scc.consumer.nanoha;
 
 import java.util.HashMap;
 import java.util.Map;

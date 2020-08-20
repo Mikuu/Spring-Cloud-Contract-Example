@@ -1,4 +1,4 @@
-package ariman.pact.consumer;
+package ariman.scc.consumer.miku;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

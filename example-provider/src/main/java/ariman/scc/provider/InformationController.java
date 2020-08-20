@@ -1,11 +1,9 @@
-package provider;
+package ariman.scc.provider;
 
 import java.util.HashMap;
-import java.util.Map;
 
-import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
-import provider.ulti.Nationality;
+import ariman.scc.provider.ulti.Nationality;
 
 @RestController
 public class InformationController {
