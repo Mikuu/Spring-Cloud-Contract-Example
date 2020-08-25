@@ -66,12 +66,7 @@ project(':example-consumer-miku') {
     }
 
     dependencies {
-//        testImplementation("org.springframework.cloud:spring-cloud-starter-contract-verifier:2.1.5.RELEASE")
         testImplementation("org.springframework.cloud:spring-cloud-contract-stub-runner:2.1.5.RELEASE")
-//        testImplementation("org.springframework.cloud:spring-cloud-starter-contract-stub-runner:2.1.5.RELEASE")
-//        testImplementation("example.example-provider:1.0.0") {
-//            transitive = false
-//        }
     }
 }
 
@@ -79,6 +74,16 @@ project(':example-consumer-nanoha') {
     jar {
         archiveBaseName = 'example-consumer-nanoha'
         archiveVersion =  '1.0.0'
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-contract-dependencies:2.1.5.RELEASE"
+        }
+    }
+
+    dependencies {
+        testImplementation("org.springframework.cloud:spring-cloud-contract-stub-runner:2.1.5.RELEASE")
     }
 }
 
@@ -109,8 +114,6 @@ project(':example-provider') {
         baseClassMappings {
             baseClassMapping(".*/ariman/scc/provider/.*", "ariman.scc.provider.SccProviderBase")
         }
-//        baseClassForTests = 'BaseMockMvcSpec'
-//        generatedTestSourcesDir = project.file('src/generatedContract')
     }
 }
 

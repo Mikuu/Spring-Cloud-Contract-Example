@@ -1,0 +1,16 @@
+request:
+  method: GET
+  url: /information
+  queryParameters:
+    name: Nanoha
+response:
+  status: 200
+  bodyFromFile: response-nanoha.json
+  matchers:
+    body:
+      - path: $.salary
+        type: by_regex
+        value: \d+
+      - path: $.contact.Email
+        type: by_regex
+        predefined: email

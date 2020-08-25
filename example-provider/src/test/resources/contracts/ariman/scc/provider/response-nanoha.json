@@ -1,0 +1,9 @@
+{
+    "salary": 80000,
+    "name": "Takamachi Nanoha",
+    "nationality": "Japan",
+    "contact": {
+        "Email": "takamachi.nanoha@ariman.com",
+        "Phone Number": "9090940"
+    }
+}
