@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @AutoConfigureStubRunner(
         stubsMode = StubRunnerProperties.StubsMode.LOCAL,
-        ids = "example:example-provider:+:stubs:8080")
+        ids = "scc-example:example-provider:+:stubs:8080")
 public class MikuIntegrationTest {
 
     @Test

@@ -5,6 +5,8 @@ request:
     name: Nanoha
 response:
   status: 200
+  headers:
+    Content-Type: application/json
   bodyFromFile: response-nanoha.json
   matchers:
     body:
